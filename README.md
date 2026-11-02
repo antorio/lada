@@ -115,6 +115,15 @@ docker pull ladaapp/lada:latest
 > 
 > With docker run you can use `--gpus 'all,"capabilities=compute,video"'`. Learn more [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html).
 
+### Using Google Colab
+
+If you don't have a suitable GPU you can run the CLI in a [Google Colab](https://colab.research.google.com) notebook on a cloud GPU:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antorio/lada/blob/main/packaging/colab/lada_colab.ipynb)
+
+> [!NOTE]
+> Only the CLI is available on Colab. Videos are read from and saved to your Google Drive. Instructions can be found in the notebook itself.
+
 ### Using Windows
 
 For Windows users, the app (CLI and GUI) is packaged as a standalone .7z archive file.
